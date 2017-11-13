@@ -5,4 +5,7 @@ package com.example.miguelangelperez.testkarumi;
  */
 
 public class NegativeException extends Exception {
+    public NegativeException(String message) {
+        super(message);
+    }
 }
